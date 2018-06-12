@@ -148,6 +148,13 @@ aside {
 }
 
 // Homepage Header
+#videobackground {
+    position: static;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 
 header {
     position: relative;
@@ -155,7 +162,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    /*background-image: url('../img/header.jpg');*/
     text-align: center;
     color: white;
     .header-content {
@@ -227,6 +234,7 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+max-height: 350px;
     .portfolio-box-caption {
         color: white;
         opacity: 0;
