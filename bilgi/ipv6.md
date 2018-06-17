@@ -1,6 +1,6 @@
 ---
+title: IPv6
 layout: page
-homepage: false
 ---
 
 # Overview
