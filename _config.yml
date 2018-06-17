@@ -1,9 +1,72 @@
+# name of the software
+name: İnternette Kalite Hareketi
+
+#project:
+#    version: 0.1.0
+#    download_url: https://github.com/allejo/jekyll-docs-theme/releases
+
+#license:
+#    software: MIT License
+#    software_url: http://opensource.org/licenses/MIT
+
+#    docs: CC BY 3.0
+#    docs_url: http://creativecommons.org/licenses/by/3.0/
+
+links:
+    header:
+      - title: Kampanyayı İmzala
+        url: /#imza
+      - title: Başarıya Ulaşılanlar
+        url: /#basarilar
+      - title: Yapılması Planlananlar
+        url: /#planlar
+      - title: Sosyal Medya
+        url: /#sosyalmedya
+        
+    footer:
+      - title: GitHub
+        url: https://github.com/allejo/jekyll-docs-theme
+      - title: Issues
+        url: https://github.com/allejo/jekyll-docs-theme/issues?state=open
+
+ui:
+    header:
+        #color1: "#080331"
+        #color2: "#673051"
+        color1: "#00cec9"
+        color2: "#55efc4"
+        trianglify: true
+
+social:
+    #github:
+    #    user: ahmetozer
+    #    repo: index
+    #twitter:
+    #    enabled: true
+    #    via:
+    #    hash:
+    #    account: kotayahayir
+    #facebook:
+    #    enabled: true
+    #    profileUrl: https://www.facebook.com/akkyehayir/
+
+#analytics:
+#    google: UA-123456-1
+
+# Build settings
+markdown: kramdown
+exclude:
+    - Gemfile
+    - Gemfile.lock
+
+
+### OnePage
 # Site settings
 title: İnternette Kalite Hareketi
 email:
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "/" # the base hostname & protocol for your site
+baseurl: "/"
+url: "/" 
 
 twitter_username: kotayahayir
 github_username:
