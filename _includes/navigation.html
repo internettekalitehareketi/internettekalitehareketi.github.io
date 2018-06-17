@@ -11,14 +11,15 @@
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
-                {% assign sorted_pages = site.pages | sort: "name" %}
+               <!-- {% assign sorted_pages = site.pages | sort: "name" %}
                 {% for p in sorted_pages %}
                     {% if p.isHome != true and p.hide != true and p.title !=  %}
-                        <!--<li {% if page.title == p.title %}class="active"{% endif %}>
+                        <li {% if page.title == p.title %}class="active"{% endif %}>
                             <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-                        </li>-->
+                        </li>
                     {% endif %}
                 {% endfor %}
+				-->
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 {% for p in site.links.header %}
