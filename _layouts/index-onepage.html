@@ -174,7 +174,7 @@
 
 <script async>
 var countDownDate = new Date("Jan 1, 2019 0:0:0").getTime();
-var x = setInterval(function() {
+	function gerisayim() {
 var now = new Date().getTime();
 var distance = countDownDate - now;
 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -188,7 +188,9 @@ document.getElementById("ct").innerHTML = days + "Gün " + hours + " Saat " + mi
 	var x = document.getElementsByClassName("akkvar");
     	x[0].innerHTML = "";x[1].innerHTML = "";
     }
-}, 1000);
+}
+	gerisayim()
+var x = setInterval(gerisayim(), 1000);
 </script>
           </div>
       </div>
