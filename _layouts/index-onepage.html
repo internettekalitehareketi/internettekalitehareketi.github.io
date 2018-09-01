@@ -168,7 +168,9 @@
   <aside class="bg-dark">
       <div class="container text-center">
           <div class="call-to-action">
-              <h2 id="ct"></h2>
+		  <h1 class="akkvar">Akk Kalkmasına</h1>
+              		<h2 id="ct"></h2>
+		  <h1 class="akkvar">Kaldı</h1>
 
 <script>
 var countDownDate = new Date("Jan 1, 2019 0:0:0").getTime();
@@ -183,6 +185,8 @@ document.getElementById("ct").innerHTML = days + "Gün " + hours + " Saat " + mi
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("ct").innerHTML = "AKK Kalktı";
+	var x = document.getElementsByClassName("akkvar");
+    	x[0].innerHTML = "";x[1].innerHTML = "";
     }
 }, 1000);
 </script>
